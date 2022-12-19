@@ -78,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Web.config.Debug.tudo">
+      <DependentUpon>Web.config.tudo</DependentUpon>
+    </None>
+    <None Include="Web.config.tudo" />
+    <None Include="Web.config.Release.tudo">
+      <DependentUpon>Web.config.tudo</DependentUpon>
+    </None>
     <None Include="Web.config.maccha" />
     <None Include="Web.config.Debug.maccha">
       <DependentUpon>Web.config.maccha</DependentUpon>
