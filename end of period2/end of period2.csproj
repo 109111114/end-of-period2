@@ -78,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Web.config.Debug.Cool">
+      <DependentUpon>Web.config.Cool</DependentUpon>
+    </None>
+    <None Include="Web.config.Cool" />
+    <None Include="Web.config.Release.Cool">
+      <DependentUpon>Web.config.Cool</DependentUpon>
+    </None>
     <None Include="Web.config.Debug.tudo">
       <DependentUpon>Web.config.tudo</DependentUpon>
     </None>
