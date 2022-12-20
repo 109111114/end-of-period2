@@ -1,0 +1,271 @@
+html {
+    overflow-x: hidden;
+}
+/*備註文字*/
+.notes {
+    color: #999;
+}
+
+/*強調數字*/
+.num {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b62015;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/*一行*/
+.row {
+}
+
+hr.line {
+    border-top-style: none;
+    border-bottom-color: #DEDEDE;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    clear: both;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding-top: 20px;
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+}
+
+hr {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    clear: both;
+}
+/*清除兩邊*/
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*靠左右*/
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+/*文字置中*/
+.tCenter {
+    text-align: center;
+}
+
+/*隱藏文字*/
+.thidden {
+    text-indent: -9999em;
+    text-align: left;
+    overflow: hidden;
+}
+
+/*圖片垂直置中*/
+.img {
+    text-align: center;
+    /* Firefox, Chrome */
+    line-height: 200px;
+    /* IE */
+    *font-size: 180px;
+    /* 200px * 0.9 = 180px */
+    *font-family: Arial;
+}
+
+    .img img {
+        vertical-align: middle;
+    }
+
+/*寬度*/
+.w10 {
+    width: 9%;
+}
+
+.w20 {
+    width: 19%;
+}
+
+.w30 {
+    width: 29%;
+}
+
+.w32 {
+    width: 31%;
+}
+
+.w40 {
+    width: 39%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w60 {
+    width: 59%;
+}
+
+.w70 {
+    width: 69%;
+}
+
+.w80 {
+    width: 79%;
+}
+
+.w90 {
+    width: 89%;
+}
+
+.w100 {
+    width: 99%;
+}
+
+.w15 {
+    width: 14%;
+}
+
+.w25 {
+    width: 24%;
+}
+
+.w28 {
+    width: 28%;
+}
+
+.w32 {
+    width: 32%;
+}
+
+.w35 {
+    width: 35%;
+}
+
+.w40 {
+    width: 38%;
+}
+
+.w45 {
+    width: 44%;
+}
+
+.w55 {
+    width: 54%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w65 {
+    width: 64%;
+}
+
+.w75 {
+    width: 74%;
+}
+
+.w85 {
+    width: 84%;
+}
+
+.w88 {
+    width: 87%;
+}
+
+.w95 {
+    width: 94%;
+}
+
+/*顏色*/
+.red {
+    color: #ba1a0e;
+}
+
+.red2 {
+    color: #e7370d;
+}
+
+/*列表- 行*/
+
+ul.rows,
+ol.rows,
+dl.rows {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    ul.rows > li,
+    ol.rows > li,
+    dl.rows > dt,
+    dl.rows > dd {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+/*列表 - 欄*/
+
+ul.columns,
+ol.columns,
+dl.columns {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    ul.columns:after,
+    ol.columns:after,
+    dl.columns:after {
+        content: "";
+        clear: both;
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    ul.columns > li,
+    ol.columns > li,
+    dl.columns > dt,
+    dl.columns > dd {
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
+
+/*漸變改色
+*:link, *:visited, *:hover, *:active, *:focus , * {
+  -o-transition: color .20s linear, background-color .20s linear, border-color .20s linear;
+  -webkit-transition: color .20s linear, background-color .20s linear, border-color .20s linear;
+  -moz-transition: color .20s linear, background-color .20s linear, border-color .20s linear;
+  transition: color .20s linear, background-color .20s linear, border-color .20s linear;
+}
+*/
+/*圓角*/
+.radius {
+    border-radius: 5px;
+    behavior: url(ie-css3.htc);
+}

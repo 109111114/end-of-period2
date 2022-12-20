@@ -68,6 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="store.aspx" />
+    <Content Include="news3.aspx" />
+    <Content Include="news1.aspx" />
+    <Content Include="news2.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="styles\default.css" />
+    <Content Include="styles\global.css" />
     <Content Include="styles\images\1422862402.png" />
     <Content Include="styles\images\1609214098.jpg" />
     <Content Include="styles\images\20.png" />
@@ -83,6 +90,17 @@
     <Content Include="styles\images\footer_bg.jpg" />
     <Content Include="styles\images\footer_fb.png" />
     <Content Include="styles\images\footer_logo.png" />
+    <Content Include="styles\images\index_banner_arrow_l.png" />
+    <Content Include="styles\images\index_banner_arrow_r.png" />
+    <Content Include="styles\images\index_banner_inco.png" />
+    <Content Include="styles\images\index_banner_info_bg.png" />
+    <Content Include="styles\images\index_banner_seal.png" />
+    <Content Include="styles\images\index_bg.jpg" />
+    <Content Include="styles\images\index_bg2.jpg" />
+    <Content Include="styles\images\index_bg_top.png" />
+    <Content Include="styles\images\index_business_pic.png" />
+    <Content Include="styles\images\index_language_l.png" />
+    <Content Include="styles\images\index_language_r.png" />
     <Content Include="styles\images\index_logo.png" />
     <Content Include="styles\images\inside001-2_hd.png" />
     <Content Include="styles\images\inside001-2_pic3.png" />
@@ -95,9 +113,20 @@
     <Content Include="styles\images\inside001-4_txt2.png" />
     <Content Include="styles\images\inside001_pic.png" />
     <Content Include="styles\images\inside001_pic2.png" />
+    <Content Include="styles\images\inside01zoom_close.png" />
     <Content Include="styles\images\inside01_23.png" />
     <Content Include="styles\images\inside01_bg.jpg" />
     <Content Include="styles\images\inside01_qa_bg.png" />
+    <Content Include="styles\images\inside04_fb.png" />
+    <Content Include="styles\images\inside05-3_c1.png" />
+    <Content Include="styles\images\inside05-3_c2.png" />
+    <Content Include="styles\images\inside05-3_c3.png" />
+    <Content Include="styles\images\inside05_more %281%29.png" />
+    <Content Include="styles\images\inside05_more.png" />
+    <Content Include="styles\images\inside06-2_arrow_r.png" />
+    <Content Include="styles\images\inside06-2_inco.png" />
+    <Content Include="styles\images\inside06-2_word.jpg" />
+    <Content Include="styles\images\inside06_li_inco.png" />
     <Content Include="styles\images\inside_bg2.jpg" />
     <Content Include="styles\images\inside_bg_top.jpg" />
     <Content Include="styles\images\menu_01.png" />
@@ -110,6 +139,8 @@
     <Content Include="styles\images\menu_08.png" />
     <Content Include="styles\images\menu_li_bg.png" />
     <Content Include="styles\images\widget_header_incobg.png" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\reset.css" />
     <Content Include="Uploadsbrand\22.jpg" />
     <Content Include="Uploadsbrand\31.jpg" />
     <Content Include="Uploadsbrand\55.jpg" />
@@ -243,6 +274,41 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="store.aspx.cs">
+      <DependentUpon>store.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store.aspx.designer.cs">
+      <DependentUpon>store.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news3.aspx.cs">
+      <DependentUpon>news3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news3.aspx.designer.cs">
+      <DependentUpon>news3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news1.aspx.cs">
+      <DependentUpon>news1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news1.aspx.designer.cs">
+      <DependentUpon>news1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news2.aspx.cs">
+      <DependentUpon>news2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news2.aspx.designer.cs">
+      <DependentUpon>news2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
