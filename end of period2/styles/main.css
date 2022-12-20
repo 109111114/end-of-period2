@@ -1,19 +1,25 @@
-@import url("reset.css"); /*²M°£¼Ë¦¡*/
-@import url("default.css"); /*¹w³]¼Ë¦¡*/
-@import url("global.css"); /*ºô¯¸¾ãÅé³q¥Î¼Ë¦¡³]­p*/
+/*-----------------------------------------------------------------------------
+	-	ç¶²ç«™ä¸»é«”æ¨£å¼è¨­è¨ˆ -
+author:		  è‹±å‰µé”ç¶²è·¯æœ‰é™å…¬å¸
+email:     	web@e-creative.tw
+website:   	http://e-creative.tw
+-----------------------------------------------------------------------------*/
+@import url("reset.css"); /*æ¸…é™¤æ¨£å¼*/
+@import url("default.css"); /*é è¨­æ¨£å¼*/
+@import url("global.css"); /*ç¶²ç«™æ•´é«”é€šç”¨æ¨£å¼è¨­è¨ˆ*/
 /* ---------------------------------------------------------------- */
 /*
-/*	 1. ­¶­±ª©«¬°t¸m Layout
-/*	 2. ª©°Ï¶ô footer
-/*	 3. ª©°Ï¶ô header
-/*	 4. ­º­¶ page1 , home
-/*	 5. ¤º­¶ page2
-/*	 6. «~µPºë¯« brand
+/*	 1. é é¢ç‰ˆå‹é…ç½® Layout
+/*	 2. ç‰ˆå€å¡Š footer
+/*	 3. ç‰ˆå€å¡Š header
+/*	 4. é¦–é  page1 , home
+/*	 5. å…§é  page2
+/*	 6. å“ç‰Œç²¾ç¥ brand
 /*
 /* ---------------------------------------------------------------- */
 
 /* ---------------------------------------------------------------- */
-/*	 1. ­¶­±ª©«¬°t¸m Layout
+/*	 1. é é¢ç‰ˆå‹é…ç½® Layout
 /* ---------------------------------------------------------------- */
 #layout {
     font-family: inherit;
@@ -109,7 +115,7 @@
 
 
 
-/*¸Ë¹¢¹Ï*/
+/*è£é£¾åœ–*/
 #layout .icon-pic .language_l {
     background-image: url(images/index_language_l.png);
     background-repeat: no-repeat;
@@ -192,14 +198,14 @@
 }
 
 /* ---------------------------------------------------------------- */
-/*	 2. ª©°Ï¶ô footer
+/*	 2. ç‰ˆå€å¡Š footer
 /* ---------------------------------------------------------------- */
 #footer a {
     text-decoration: none;
 }
 
 /* ---------------------------------------------------------------- */
-/*	 3. ª©°Ï¶ô header
+/*	 3. ç‰ˆå€å¡Š header
 /* ---------------------------------------------------------------- */
 #header .logo h1 {
     margin: 0px;
@@ -219,7 +225,7 @@
     height: 120px;
 }
 
-/*¥D¿ï³æ*/
+/*ä¸»é¸å–®*/
 #header .menuMovement {
     position: absolute;
     left: 391px;
@@ -249,8 +255,8 @@
             display: block;
             text-decoration: none;
             color: #000;
-            -webkit-writing-mode: vertical-rl; /*ª½±Æ*/
-            writing-mode: tb-rl; /*ª½±Æ*/
+            -webkit-writing-mode: vertical-rl; /*ç›´æ’*/
+            writing-mode: tb-rl; /*ç›´æ’*/
 
             background-repeat: no-repeat;
             background-position: 14px 0px;
@@ -308,7 +314,7 @@
     display: inline;
 }
 /* ---------------------------------------------------------------- */
-/*	 4. ­º­¶ page1 , home
+/*	 4. é¦–é  page1 , home
 /* ---------------------------------------------------------------- */
 .page1 {
     background-image: url(images/index_bg.jpg);
@@ -371,7 +377,7 @@
             }
 
                 .page1 #footer #home-news li a time:after {
-                    content: "¡U";
+                    content: "ï½œ";
                     margin: 0 3px 0 3px;
                 }
 
@@ -543,7 +549,7 @@
         display: block;
         width: 110px;
         z-index: 100;
-        font-family: "·s²Ó©úÅé";
+        font-family: "æ–°ç´°æ˜é«”";
     }
 
         #home-banner .bannerInco a {
@@ -599,7 +605,7 @@
 
 
 /* ---------------------------------------------------------------- */
-/*	 5. ¤º­¶ page2
+/*	 5. å…§é  page2
 /* ---------------------------------------------------------------- */
 .page2 {
     background-image: url(images/inside01_bg.jpg);
@@ -631,7 +637,7 @@
     .page2 #footer {
         height: 185px;
         font-size: 12px;
-        font-family: "·s²Ó©úÅé";
+        font-family: "æ–°ç´°æ˜é«”";
         line-height: 2.9;
         margin-top: 40px;
     }
@@ -680,7 +686,7 @@
                     }
 
 
-        /*­¶§À¿ï³æ*/
+        /*é å°¾é¸å–®*/
         .page2 #footer .footer-menu {
             width: 200px;
             position: absolute;
@@ -757,7 +763,7 @@
     .widget-header h1 {
         color: #ffffff;
         font-size: 18px;
-        font-family: "µØ±d¤¤¶êÅé";
+        font-family: "è¯åº·ä¸­åœ“é«”";
         font-weight: normal;
         letter-spacing: 1px;
         display: block;
@@ -780,7 +786,7 @@
 
 
 
-/*ºô¯¸¾ÉÄı³sµ²*/
+/*ç¶²ç«™å°è¦½é€£çµ*/
 .sitelink {
     position: absolute;
     top: 25px;
@@ -800,12 +806,12 @@
         }
 
         .sitelink a:first-child {
-            border-left: 0; /*¥ªÃä²Ä¤@±ø½uÁôÂÃ*/
+            border-left: 0; /*å·¦é‚Šç¬¬ä¸€æ¢ç·šéš±è—*/
         }
 
 
 /* ---------------------------------------------------------------- */
-/*	 6. «~µPºë¯« brand
+/*	 6. å“ç‰Œç²¾ç¥ brand
 /* ---------------------------------------------------------------- */
 #brand {
     /*margin-right: 25px;
@@ -864,7 +870,7 @@
             }
 
             #brand ul.brandList li .img .view {
-                font-family: "·L³n¥¿¶ÂÅé";
+                font-family: "å¾®è»Ÿæ­£é»‘é«”";
                 font-size: 12px;
                 letter-spacing: 0px;
                 line-height: 37px;
@@ -957,7 +963,7 @@
 
 
 /* ---------------------------------------------------------------- */
-/*	 0. ¼u¸õµøµ¡ show
+/*	 0. å½ˆè·³è¦–çª— show
 /* ---------------------------------------------------------------- */
 .show {
     position: relative;
@@ -1001,7 +1007,7 @@
 .show .community {
     color: #fd7d00;
     font-size: 12px;
-    font-family: "·s²Ó©úÅé";
+    font-family: "æ–°ç´°æ˜é«”";
     width: 165px;
     height: 45px;
     z-index: 998;
@@ -1077,7 +1083,7 @@
         color: #C4C4C4;
     }
 
-    /*¤p·Ó¤ù*/
+    /*å°ç…§ç‰‡*/
     #showBrand .show-silder {
         margin-top: 10px;
     }
@@ -1142,7 +1148,7 @@
 #showMenu .show-content h5 {
     color: #000;
     font-weight: bold;
-    font-family: "·s²Ó©úÅé";
+    font-family: "æ–°ç´°æ˜é«”";
     width: 800px;
     margin: 0 0 7px 0;
 }
@@ -1150,7 +1156,7 @@
 #showMenu .show-content p {
     font-size: 12px;
     color: #d83901;
-    font-family: "·s²Ó©úÅé";
+    font-family: "æ–°ç´°æ˜é«”";
     width: 800px;
 }
 
@@ -1314,7 +1320,7 @@
   bottom: 0px; 
 }*/
 /* ---------------------------------------------------------------- */
-/*	 0. µæ³æ¤¶²Ğ menu
+/*	 0. èœå–®ä»‹ç´¹ menu
 /* ---------------------------------------------------------------- */
 .menuList li a {
     text-decoration: none;
@@ -1555,7 +1561,7 @@
     margin-left: 33px;
 }
 
-    .proList li .info .store { /*0120­×§ï*/
+    .proList li .info .store { /*0120ä¿®æ”¹*/
         font-size: 13px;
         color: #FFF;
         line-height: 1.5;
@@ -1597,7 +1603,7 @@
 
 
 /* ---------------------------------------------------------------- */
-/*	 0. ¤À©±¸ê°T store
+/*	 0. åˆ†åº—è³‡è¨Š store
 /* ---------------------------------------------------------------- */
 #store .text {
     margin-left: 25px;
@@ -1729,7 +1735,7 @@
 }
 
 /* ---------------------------------------------------------------- */
-/*	 0. ³Ì·s®ø®§ news
+/*	 0. æœ€æ–°æ¶ˆæ¯ news
 /* ---------------------------------------------------------------- */
 #news.widget-content {
     margin: 0 5px 0 20px;
@@ -1832,7 +1838,7 @@ ul.newsList li {
 }
 
 /* ---------------------------------------------------------------- */
-/*	 0. ³Ì·s®ø®§ newsDia
+/*	 0. æœ€æ–°æ¶ˆæ¯ newsDia
 /* ---------------------------------------------------------------- */
 #newsDia.widget-content {
     margin: -5px 20px 0 20px;
@@ -1879,7 +1885,7 @@ ul.newsList li {
 
 
 /* ---------------------------------------------------------------- */
-/*	 0. ©ÔÄÑ¤p¾Ç°ó newsDia
+/*	 0. æ‹‰éºµå°å­¸å ‚ newsDia
 /* ---------------------------------------------------------------- */
 #school.widget-content {
     margin: -5px 20px 0 20px;
@@ -2006,7 +2012,7 @@ h4.basicBox-tit {
 
 
 /* ---------------------------------------------------------------- */
-/*	 0. Ãö©ó§Ú­Ì about
+/*	 0. é—œæ–¼æˆ‘å€‘ about
 /* ---------------------------------------------------------------- */
 #about .text p {
     font-size: 14px;

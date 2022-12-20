@@ -72,7 +72,20 @@
     <Content Include="about3.aspx" />
     <Content Include="about4.aspx" />
     <Content Include="about5.aspx" />
+    <Content Include="brand.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="menu.aspx" />
+    <Content Include="menuList.aspx" />
+    <Content Include="menuList10.aspx" />
+    <Content Include="menuList2.aspx" />
+    <Content Include="menuList3.aspx" />
+    <Content Include="menuList4.aspx" />
+    <Content Include="menuList5.aspx" />
+    <Content Include="menuList6.aspx" />
+    <Content Include="menuList7.aspx" />
+    <Content Include="menuList8.aspx" />
+    <Content Include="menuList9.aspx" />
+    <Content Include="school.aspx" />
     <Content Include="store.aspx" />
     <Content Include="news3.aspx" />
     <Content Include="news1.aspx" />
@@ -122,18 +135,26 @@
     <Content Include="styles\images\inside01_23.png" />
     <Content Include="styles\images\inside01_bg.jpg" />
     <Content Include="styles\images\inside01_qa_bg.png" />
+    <Content Include="styles\images\inside03_inco_good.png" />
+    <Content Include="styles\images\inside03_limit_bg.png" />
+    <Content Include="styles\images\inside03_limit_bg2.png" />
+    <Content Include="styles\images\inside03_title_bg.jpg" />
     <Content Include="styles\images\inside04_fb.png" />
     <Content Include="styles\images\inside05-3_c1.png" />
     <Content Include="styles\images\inside05-3_c2.png" />
     <Content Include="styles\images\inside05-3_c3.png" />
+    <Content Include="styles\images\inside05_inco.jpg" />
+    <Content Include="styles\images\inside05_inco_push.png" />
     <Content Include="styles\images\inside05_more %281%29.png" />
     <Content Include="styles\images\inside05_more.png" />
+    <Content Include="styles\images\inside05_zoom.png" />
     <Content Include="styles\images\inside06-2_arrow_r.png" />
     <Content Include="styles\images\inside06-2_inco.png" />
     <Content Include="styles\images\inside06-2_word.jpg" />
     <Content Include="styles\images\inside06_li_inco.png" />
     <Content Include="styles\images\inside_bg2.jpg" />
     <Content Include="styles\images\inside_bg_top.jpg" />
+    <Content Include="styles\images\menu-header_line.jpg" />
     <Content Include="styles\images\menu_01.png" />
     <Content Include="styles\images\menu_02.png" />
     <Content Include="styles\images\menu_03.png" />
@@ -143,6 +164,7 @@
     <Content Include="styles\images\menu_07.png" />
     <Content Include="styles\images\menu_08.png" />
     <Content Include="styles\images\menu_li_bg.png" />
+    <Content Include="styles\images\top_icon.png" />
     <Content Include="styles\images\widget_header_incobg.png" />
     <Content Include="styles\main.css" />
     <Content Include="styles\reset.css" />
@@ -312,8 +334,99 @@
     <Compile Include="about5.aspx.designer.cs">
       <DependentUpon>about5.aspx</DependentUpon>
     </Compile>
+    <Compile Include="brand.aspx.cs">
+      <DependentUpon>brand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="brand.aspx.designer.cs">
+      <DependentUpon>brand.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList.aspx.cs">
+      <DependentUpon>menuList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList.aspx.designer.cs">
+      <DependentUpon>menuList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList10.aspx.cs">
+      <DependentUpon>menuList10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList10.aspx.designer.cs">
+      <DependentUpon>menuList10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList2.aspx.cs">
+      <DependentUpon>menuList2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList2.aspx.designer.cs">
+      <DependentUpon>menuList2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList3.aspx.cs">
+      <DependentUpon>menuList3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList3.aspx.designer.cs">
+      <DependentUpon>menuList3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList4.aspx.cs">
+      <DependentUpon>menuList4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList4.aspx.designer.cs">
+      <DependentUpon>menuList4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList5.aspx.cs">
+      <DependentUpon>menuList5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList5.aspx.designer.cs">
+      <DependentUpon>menuList5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList6.aspx.cs">
+      <DependentUpon>menuList6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList6.aspx.designer.cs">
+      <DependentUpon>menuList6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList7.aspx.cs">
+      <DependentUpon>menuList7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList7.aspx.designer.cs">
+      <DependentUpon>menuList7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList8.aspx.cs">
+      <DependentUpon>menuList8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList8.aspx.designer.cs">
+      <DependentUpon>menuList8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuList9.aspx.cs">
+      <DependentUpon>menuList9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuList9.aspx.designer.cs">
+      <DependentUpon>menuList9.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="school.aspx.cs">
+      <DependentUpon>school.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="school.aspx.designer.cs">
+      <DependentUpon>school.aspx</DependentUpon>
     </Compile>
     <Compile Include="store.aspx.cs">
       <DependentUpon>store.aspx</DependentUpon>

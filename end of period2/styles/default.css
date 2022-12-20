@@ -1,262 +1,270 @@
+/* CSS Document */
+/*-----------------------------------------------------------------------------
+	-	é è¨­æ¨£å¼ -
+author:		  è‹±å‰µé”ç¶²è·¯æœ‰é™å…¬å¸
+email:     	web@e-creative.tw
+website:   	http://e-creative.tw
+-----------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------- */
+/*	å…¶ä»–ç´°ç¯€
+/* ---------------------------------------------------------------- */
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
-/*³Æµù¤å¦r*/
+/*å‚™è¨»æ–‡å­—*/
 .notes {
-    color: #999;
+  color: #999;
 }
 
-/*±j½Õ¼Æ¦r*/
+/*å¼·èª¿æ•¸å­—*/
 .num {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #b62015;
-    margin-right: 5px;
-    margin-left: 5px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #b62015;
+  margin-right: 5px;
+  margin-left: 5px;
 }
-/*¤@¦æ*/
+/*ä¸€è¡Œ*/
 .row {
 }
 
 hr.line {
-    border-top-style: none;
-    border-bottom-color: #DEDEDE;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    clear: both;
-    border-right-style: none;
-    border-left-style: none;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    padding-top: 20px;
-    width: 100%;
-    display: block;
-    margin-bottom: 25px;
+  border-top-style: none;
+  border-bottom-color: #DEDEDE;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  clear: both;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  padding-top: 20px;
+  width: 100%;
+  display: block;
+  margin-bottom: 25px;
 }
 
 hr {
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    clear: both;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  clear: both;
 }
-/*²M°£¨âÃä*/
+/*æ¸…é™¤å…©é‚Š*/
 .clear {
-    clear: both;
+  clear: both;
 }
 
 .clearfix:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
-/*¾a¥ª¥k*/
+/*é å·¦å³*/
 .fr {
-    float: right;
+  float: right;
 }
 
 .fl {
-    float: left;
+  float: left;
 }
 
-/*¤å¦r¸m¤¤*/
+/*æ–‡å­—ç½®ä¸­*/
 .tCenter {
-    text-align: center;
+  text-align: center;
 }
 
-/*ÁôÂÃ¤å¦r*/
+/*éš±è—æ–‡å­—*/
 .thidden {
-    text-indent: -9999em;
-    text-align: left;
-    overflow: hidden;
+  text-indent: -9999em;
+  text-align: left;
+  overflow: hidden;
 }
 
-/*¹Ï¤ù««ª½¸m¤¤*/
+/*åœ–ç‰‡åž‚ç›´ç½®ä¸­*/
 .img {
-    text-align: center;
-    /* Firefox, Chrome */
-    line-height: 200px;
-    /* IE */
-    *font-size: 180px;
-    /* 200px * 0.9 = 180px */
-    *font-family: Arial;
+  text-align: center;
+  /* Firefox, Chrome */
+  line-height: 200px;
+  /* IE */
+  *font-size: 180px;
+  /* 200px * 0.9 = 180px */
+  *font-family: Arial;
 }
 
-    .img img {
-        vertical-align: middle;
-    }
+.img img {
+  vertical-align: middle;
+}
 
-/*¼e«×*/
+/*å¯¬åº¦*/
 .w10 {
-    width: 9%;
+  width: 9%;
 }
 
 .w20 {
-    width: 19%;
+  width: 19%;
 }
 
 .w30 {
-    width: 29%;
+  width: 29%;
 }
 
 .w32 {
-    width: 31%;
+  width: 31%;
 }
-
 .w40 {
-    width: 39%;
+  width: 39%;
 }
 
 .w50 {
-    width: 50%;
+  width: 50%;
 }
 
 .w60 {
-    width: 59%;
+  width: 59%;
 }
 
 .w70 {
-    width: 69%;
+  width: 69%;
 }
 
 .w80 {
-    width: 79%;
+  width: 79%;
 }
 
 .w90 {
-    width: 89%;
+  width: 89%;
 }
 
 .w100 {
-    width: 99%;
+  width: 99%;
 }
 
 .w15 {
-    width: 14%;
+  width: 14%;
 }
 
 .w25 {
-    width: 24%;
+  width: 24%;
 }
 
 .w28 {
-    width: 28%;
+  width: 28%;
 }
 
 .w32 {
-    width: 32%;
+  width: 32%;
 }
 
 .w35 {
-    width: 35%;
+  width: 35%;
 }
 
 .w40 {
-    width: 38%;
+  width: 38%;
 }
 
 .w45 {
-    width: 44%;
+  width: 44%;
 }
 
 .w55 {
-    width: 54%;
+  width: 54%;
 }
 
 .w60 {
-    width: 60%;
+  width: 60%;
 }
 
 .w65 {
-    width: 64%;
+  width: 64%;
 }
 
 .w75 {
-    width: 74%;
+  width: 74%;
 }
 
 .w85 {
-    width: 84%;
+  width: 84%;
 }
 
 .w88 {
-    width: 87%;
+  width: 87%;
 }
 
 .w95 {
-    width: 94%;
+  width: 94%;
 }
 
-/*ÃC¦â*/
+/*é¡è‰²*/
 .red {
-    color: #ba1a0e;
+  color: #ba1a0e;
 }
-
 .red2 {
-    color: #e7370d;
+  color: #e7370d;
 }
 
-/*¦Cªí- ¦æ*/
+/*åˆ—è¡¨- è¡Œ*/
 
-ul.rows,
-ol.rows,
+ul.rows,    
+ol.rows,    
 dl.rows {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-    ul.rows > li,
-    ol.rows > li,
-    dl.rows > dt,
-    dl.rows > dd {
-        margin: 0;
-        padding: 0;
-        display: block;
-    }
+ul.rows > li, 
+ol.rows > li,
+dl.rows > dt, 
+dl.rows > dd {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
 
-/*¦Cªí - Äæ*/
+/*åˆ—è¡¨ - æ¬„*/
 
-ul.columns,
-ol.columns,
+ul.columns, 
+ol.columns, 
 dl.columns {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-    ul.columns:after,
-    ol.columns:after,
-    dl.columns:after {
-        content: "";
-        clear: both;
-        width: 0;
-        height: 0;
-        display: block;
-        overflow: hidden;
-        visibility: hidden;
-    }
+ul.columns:after,
+ol.columns:after,
+dl.columns:after {
+  content: "";
+  clear: both;
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+}
 
-    ul.columns > li,
-    ol.columns > li,
-    dl.columns > dt,
-    dl.columns > dd {
-        margin: 0;
-        padding: 0;
-        float: left;
-    }
+ul.columns > li, 
+ol.columns > li,
+dl.columns > dt, 
+dl.columns > dd {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
 
 
-/*º¥ÅÜ§ï¦â
+/*æ¼¸è®Šæ”¹è‰²
 *:link, *:visited, *:hover, *:active, *:focus , * {
   -o-transition: color .20s linear, background-color .20s linear, border-color .20s linear;
   -webkit-transition: color .20s linear, background-color .20s linear, border-color .20s linear;
@@ -264,8 +272,8 @@ dl.columns {
   transition: color .20s linear, background-color .20s linear, border-color .20s linear;
 }
 */
-/*¶ê¨¤*/
+/*åœ“è§’*/
 .radius {
-    border-radius: 5px;
-    behavior: url(ie-css3.htc);
+  border-radius: 5px;
+  behavior: url(ie-css3.htc);
 }

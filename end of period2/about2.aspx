@@ -45,7 +45,7 @@
           <!--  <li class="main-item"><a href="home.aspx" class="main-item-a m5 "><span>拉麵小學堂</span></a></li>-->
             <li class="main-item"><a href="about.aspx" class="main-item-a m6 select"><span>關於我們</span></a></li>
             <li class="main-item"><a href="https://www.104.com.tw/company/d3kkjsw" target="_blank" class="main-item-a m7"><span>加入我們</span></a></li>
-            <li class="main-item"><a href="E.aspx" class="main-item-a m8"><span>聯絡我們</span></a></li>
+            <li class="main-item"><a href="about5.aspx" class="main-item-a m8"><span>聯絡我們</span></a></li>
             <!--<li class="main-item"><a href="mailto:service@tarokofood.com.tw" class="main-item-a m8" title="請MAIL到service@tarokofood.com.tw"><span>聯絡我們</span></a></li>-->
           </ul>
         </nav>

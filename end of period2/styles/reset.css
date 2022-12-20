@@ -1,50 +1,50 @@
 @charset "utf-8";
 /*-----------------------------------------------------------------------------
-	-	≤M∞£ºÀ¶° -
-author:		  ≠^≥–πF∫Ù∏Ù¶≥≠≠§Ω•q
+	-	Ê∏ÖÈô§Ê®£Âºè -
+author:		  Ëã±ÂâµÈÅîÁ∂≤Ë∑ØÊúâÈôêÂÖ¨Âè∏
 email:     	web@e-creative.tw
 website:   	http://e-creative.tw
 -----------------------------------------------------------------------------*/
 /* ==========================================================================
-   ∑sºW™∫
+   Êñ∞Â¢ûÁöÑ
    ========================================================================== */
-/*´ˆ∂s*/
+/*ÊåâÈàï*/
 button {
-    border: none;
-    background: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 }
 
-dl, dt, dd {
-    margin: 0px;
-    padding: 0px;
+dl,dt,dd {
+  margin: 0px;
+  padding: 0px;
 }
 
 ol {
-    margin: 0px;
-    padding-left: 15px;
+  margin: 0px;
+  padding-left: 15px;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
-p, time {
-    line-height: 1.5em;
-    margin: 0px;
-    padding: 0px;
+p,time {
+  line-height: 1.5em;
+  margin: 0px;
+  padding: 0px;
 }
 
 time {
-    font-family: Verdana, Geneva, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
-h1, h2, h3, h4 {
-    line-height: 1.8em;
-    margin: 0px;
-    padding: 0px;
+h1,h2,h3,h4 {
+  line-height: 1.8em;
+  margin: 0px;
+  padding: 0px;
 }
 /* ==========================================================================
    HTML5 display definitions
@@ -66,7 +66,7 @@ main,
 nav,
 section,
 summary {
-    display: block;
+  display: block;
 }
 
 /**
@@ -76,18 +76,18 @@ summary {
 audio,
 canvas,
 video {
-    display: inline-block;
+  display: inline-block;
 }
 
-    /**
+/**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
 
-    audio:not([controls]) {
-        display: none;
-        height: 0;
-    }
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
 
 /**
  * Address `[hidden]` styling not present in IE 8/9.
@@ -96,7 +96,7 @@ video {
 
 [hidden],
 template {
-    display: none;
+  display: none;
 }
 
 /* ==========================================================================
@@ -110,12 +110,12 @@ template {
  */
 
 html {
-    font-family: sans-serif;
-    /* 1 */
-    -ms-text-size-adjust: 100%;
-    /* 2 */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */;
+  font-family: sans-serif;
+ /* 1 */
+  -ms-text-size-adjust: 100%;
+ /* 2 */
+  -webkit-text-size-adjust: 100%;
+ /* 2 */;
 }
 
 /**
@@ -123,8 +123,8 @@ html {
  */
 
 body {
-    margin: 0;
-    /*font-size: 13px;*/
+  margin: 0;
+  /*font-size: 13px;*/
 }
 
 /* ==========================================================================
@@ -136,25 +136,25 @@ body {
  */
 
 a {
-    background: transparent;
+  background: transparent;
 }
 
-    /**
+/**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
-    a:focus {
-        outline: thin dotted;
-    }
+a:focus {
+  outline: thin dotted;
+}
 
-    /**
+/**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-    a:active,
-    a:hover {
-        outline: 0;
-    }
+a:active,
+a:hover {
+  outline: 0;
+}
 
 /* ==========================================================================
    Typography
@@ -166,8 +166,8 @@ a {
  */
 
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 /**
@@ -175,7 +175,7 @@ h1 {
  */
 
 abbr[title] {
-    border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
 /**
@@ -184,7 +184,7 @@ abbr[title] {
 
 b,
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /**
@@ -192,7 +192,7 @@ strong {
  */
 
 dfn {
-    font-style: italic;
+  font-style: italic;
 }
 
 /**
@@ -200,9 +200,9 @@ dfn {
  */
 
 hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
 }
 
 
@@ -214,8 +214,8 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
-    font-size: 1em;
+  font-family: monospace, serif;
+  font-size: 1em;
 }
 
 /**
@@ -223,7 +223,7 @@ samp {
  */
 
 pre {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 /**
@@ -231,7 +231,7 @@ pre {
  */
 
 q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 /**
@@ -239,7 +239,7 @@ q {
  */
 
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 /**
@@ -248,18 +248,18 @@ small {
 
 sub,
 sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sup {
-    top: -0.5em;
+  top: -0.5em;
 }
 
 sub {
-    bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 
@@ -269,7 +269,7 @@ sub {
  */
 
 img {
-    border: 0;
+  border: 0;
 }
 
 /**
@@ -277,7 +277,7 @@ img {
  */
 
 svg:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* ==========================================================================
@@ -289,7 +289,7 @@ svg:not(:root) {
  */
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -301,9 +301,9 @@ figure {
  */
 
 fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 /**
@@ -369,14 +369,14 @@ input[type="submit"] {
     cursor: pointer; /* 3 */
 }
 
-    /**
+/**
  * Re-set default cursor for disabled elements.
  */
 
-    button[disabled],
-    html input[disabled] {
-        cursor: default;
-    }
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
 
 /**
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
@@ -402,15 +402,15 @@ input[type="search"] {
     box-sizing: content-box;
 }
 
-    /**
+/**
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
 
-    input[type="search"]::-webkit-search-cancel-button,
-    input[type="search"]::-webkit-search-decoration {
-        -webkit-appearance: none;
-    }
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
 
 /**
  * Remove inner padding and border in Firefox 4+.
