@@ -7,8 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace end_of_period2
 {
-    public partial class home : System.Web.UI.Page
+    public partial class news : System.Web.UI.Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

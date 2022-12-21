@@ -11,7 +11,7 @@ namespace end_of_period2
 {
 
 
-    public partial class home
+    public partial class news
     {
     }
 }

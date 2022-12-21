@@ -27,7 +27,7 @@
                             <li class="main-item"><a href="school.aspx" class="main-item-a m5 "><span>拉麵小學堂</span></a></li>
                             <li class="main-item"><a href="about.aspx" class="main-item-a m6 "><span>關於我們</span></a></li>
                             <li class="main-item"><a href="https://www.104.com.tw/company/d3kkjsw" target="_blank" class="main-item-a m7"><span>加入我們</span></a></li>
-                            <li class="main-item"><a href="about.aspx" class="main-item-a m8"><span>聯絡我們</span></a></li>
+                            <li class="main-item"><a href="about5.aspx" class="main-item-a m8"><span>聯絡我們</span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="container">
                     <div class="widget-header">
                         <h1 style="border-bottom-style: none; padding: 0 0 0 0;">菜單介紹<span class="widget-header_jp">お品書き</span></h1>
-                        <div class="sitelink"><a href="index.aspx">首頁</a><a href="menu.aspx">菜單介紹</a></div>
+                        <div class="sitelink"><a href="home.aspx">首頁</a><a href="menu.aspx">菜單介紹</a></div>
                     </div>
                     <div id="menu" class="widget-content">
                         <ul class="columns menuList">
@@ -169,7 +169,7 @@
             </div>
             <footer id="footer">
                 <div class="container">
-                    <a href="index.aspx" title="{網站名稱}" class="slogo thidden">
+                    <a href="home.aspx" title="{網站名稱}" class="slogo thidden">
                         <h1>{網站名稱}</h1>
                     </a>
                     <div class="info">

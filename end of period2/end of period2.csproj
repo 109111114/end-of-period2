@@ -85,10 +85,10 @@
     <Content Include="menuList7.aspx" />
     <Content Include="menuList8.aspx" />
     <Content Include="menuList9.aspx" />
+    <Content Include="news.aspx" />
     <Content Include="school.aspx" />
     <Content Include="store.aspx" />
     <Content Include="news3.aspx" />
-    <Content Include="news1.aspx" />
     <Content Include="news2.aspx" />
     <Content Include="home.aspx" />
     <Content Include="styles\default.css" />
@@ -421,6 +421,13 @@
     <Compile Include="menuList9.aspx.designer.cs">
       <DependentUpon>menuList9.aspx</DependentUpon>
     </Compile>
+    <Compile Include="news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+    </Compile>
     <Compile Include="school.aspx.cs">
       <DependentUpon>school.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -441,13 +448,6 @@
     </Compile>
     <Compile Include="news3.aspx.designer.cs">
       <DependentUpon>news3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="news1.aspx.cs">
-      <DependentUpon>news1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="news1.aspx.designer.cs">
-      <DependentUpon>news1.aspx</DependentUpon>
     </Compile>
     <Compile Include="news2.aspx.cs">
       <DependentUpon>news2.aspx</DependentUpon>

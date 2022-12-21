@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="news3.aspx.cs" Inherits="end_of_period2.home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="news.aspx.cs" Inherits="end_of_period2.news" %>
+
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -49,13 +50,55 @@
                     <div class="text">
                         <ul class="columns newsList">
 
+
+
                             <li>
                                 <a class="pic fl">
-                                    <img src="Uploads/news/309.jpg" width="222" height="125" /></a>
+                                    <img src="Uploads/news/306.jpg" width="222" height="125" /></a>
                                 <div class="news-r fl">
-                                    <time>2022-09-19</time>
-                                    <h3>樂麵屋會員專屬福利介紹</h3>
-                                    <a href="http://www.facebook.com/share.php?u=www.rakumenya.com.tw/newsDia.php?d=199" title="分享至FB" target="_blank" class="shareFB"><span class="shareFBWord fl">Share:</span><img src="styles/images/inside04_fb.png" class="fl" /></a>
+                                    <time>2022-08-29</time>
+                                    <h3>永康店 9月店休時間為 每週一~五</h3>
+                                    <a href="http://www.facebook.com/share.php?u=rakumenya.com.tw/newsDia.php?d=198" title="分享至FB" target="_blank" class="shareFB"><span class="shareFBWord fl">Share:</span><img src="styles/images/inside04_fb.png" class="fl" /></a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="pic fl">
+                                    <img src="Uploads/news/305.jpg" width="222" height="125" /></a>
+                                <div class="news-r fl">
+                                    <time>2022-07-22</time>
+                                    <h3>永康店 8月店休時間為 每週一~四</h3>
+                                    <a href="http://www.facebook.com/share.php?u=www.rakumenya.com.tw/newsDia.php?d=197" title="分享至FB" target="_blank" class="shareFB"><span class="shareFBWord fl">Share:</span><img src="styles/images/inside04_fb.png" class="fl" /></a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="pic fl">
+                                    <img src="Uploads/news/304.jpg" width="222" height="125" /></a>
+                                <div class="news-r fl">
+                                    <time>2022-07-01</time>
+                                    <h3>永康店 7月店休時間為 每週一、二</h3>
+                                    <a href="http://www.facebook.com/share.php?u=www.rakumenya.com.tw/newsDia.php?d=196" title="分享至FB" target="_blank" class="shareFB"><span class="shareFBWord fl">Share:</span><img src="styles/images/inside04_fb.png" class="fl" /></a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="pic fl">
+                                    <img src="Uploads/news/302.jpg" width="222" height="125" /></a>
+                                <div class="news-r fl">
+                                    <time>2022-06-14</time>
+                                    <h3>【夏季限定】鹽味檸檬拉麵</h3>
+                                    <a href="http://www.facebook.com/share.php?u=www.rakumenya.com.tw/newsDia.php?d=194" title="分享至FB" target="_blank" class="shareFB"><span class="shareFBWord fl">Share:</span><img src="styles/images/inside04_fb.png" class="fl" /></a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="pic fl">
+                                    <img src="Uploads/news/303.jpg" width="222" height="125" /></a>
+                                <div class="news-r fl">
+                                    <time>2022-06-14</time>
+                                    <h3>【夏季限定】雞肉酪梨山葵冷麵</h3>
+                                    <a href="http://www.facebook.com/share.php?u=www.rakumenya.com.tw/newsDia.php?d=195" title="分享至FB" target="_blank" class="shareFB"><span class="shareFBWord fl">Share:</span><img src="styles/images/inside04_fb.png" class="fl" /></a>
                                 </div>
                             </li>
                         </ul>
