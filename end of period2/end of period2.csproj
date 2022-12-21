@@ -72,6 +72,7 @@
     <Content Include="about3.aspx" />
     <Content Include="about4.aspx" />
     <Content Include="about5.aspx" />
+    <Content Include="about6.aspx" />
     <Content Include="brand.aspx" />
     <Content Include="Global.asax" />
     <Content Include="menu.aspx" />
@@ -334,6 +335,13 @@
     </Compile>
     <Compile Include="about5.aspx.designer.cs">
       <DependentUpon>about5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about6.aspx.cs">
+      <DependentUpon>about6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about6.aspx.designer.cs">
+      <DependentUpon>about6.aspx</DependentUpon>
     </Compile>
     <Compile Include="brand.aspx.cs">
       <DependentUpon>brand.aspx</DependentUpon>
