@@ -67,7 +67,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/282.png" width="196" height="122"/></div>
+                                                        <img src="UploadsMenu/282.png" width="196" height="122"/></div>
                                                 </div>
                                                 <div class="info">
                                                     <p class="name">可口可樂</p>
@@ -80,7 +80,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/321.png" width="196" height="122"/></div>
+                                                        <img src="UploadsMenu/321.png" width="196" height="122"/></div>
                                                 </div>
                                                 <div class="info">
                                                     <p class="name">檸檬紅茶</p>
@@ -93,7 +93,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/395.png" width="196" height="122"/></div>
+                                                        <img src="UploadsMenu/395.png" width="196" height="122"/></div>
                                                 </div>
                                                 <div class="info">
                                                     <p class="name">薑汁汽水</p>
@@ -106,7 +106,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/317.png" width="196" height="122"/></div>
+                                                        <img src="UploadsMenu/317.png" width="196" height="122"/></div>
                                                 </div>
                                                 <div class="info">
                                                     <p class="name">可爾必思</p>
@@ -119,7 +119,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/285.png" width="196" height="122"/></div>
+                                                        <img src="UploadsMenu/285.png" width="196" height="122"/></div>
                                                 </div>
                                                 <div class="info">
                                                     <p class="name">朝日啤酒(瓶)</p>
@@ -132,7 +132,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/287.png" width="196" height="122"/></div>
+                                                        <img src="UploadsMenu/287.png" width="196" height="122"/></div>
                                                 </div>
                                                 <div class="info">
                                                     <p class="name">冰梅酒</p>
@@ -145,7 +145,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/319.png" width="196" height="122"/></div>
+                                                        <img src="UploadsMenu/319.png" width="196" height="122"/></div>
                                                 </div>
                                                 <div class="info">
                                                     <p class="name">清酒</p>

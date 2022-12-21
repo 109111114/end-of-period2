@@ -66,7 +66,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/68.png" width="196" height="122"/>
+                                                        <img src="UploadsMenu/68.png" width="196" height="122"/>
                                                     </div>
                                                     <p class="inco-push"></p>
                                                 </div>
@@ -81,7 +81,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/194.png" width="196" height="122"/>
+                                                        <img src="UploadsMenu/194.png" width="196" height="122"/>
                                                     </div>
                                                 </div>
                                                 <div class="info">
@@ -95,7 +95,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/63.png" width="196" height="122"/>
+                                                        <img src="UploadsMenu/63.png" width="196" height="122"/>
                                                     </div>
                                                 </div>
                                                 <div class="info">
@@ -109,7 +109,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/192.png" width="196" height="122"/>
+                                                        <img src="UploadsMenu/192.png" width="196" height="122"/>
                                                     </div>
                                                 </div>
                                                 <div class="info">
@@ -123,7 +123,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/65.png" width="196" height="122"/>
+                                                        <img src="UploadsMenu/65.png" width="196" height="122"/>
                                                     </div>
                                                 </div>
                                                 <div class="info">
@@ -137,7 +137,7 @@
                                             <a class="proList-long">
                                                 <div class="pic">
                                                     <div class="img">
-                                                        <img src="Uploadsmenu/195.png" width="196" height="122"/>
+                                                        <img src="UploadsMenu/195.png" width="196" height="122"/>
                                                     </div>
                                                 </div>
                                                 <div class="info">
