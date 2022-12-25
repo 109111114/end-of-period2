@@ -73,6 +73,7 @@
     <Content Include="about4.aspx" />
     <Content Include="about5.aspx" />
     <Content Include="about6.aspx" />
+    <Content Include="about7.aspx" />
     <Content Include="brand.aspx" />
     <Content Include="Global.asax" />
     <Content Include="menu.aspx" />
@@ -343,6 +344,13 @@
     <Compile Include="about6.aspx.designer.cs">
       <DependentUpon>about6.aspx</DependentUpon>
     </Compile>
+    <Compile Include="about7.aspx.cs">
+      <DependentUpon>about7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about7.aspx.designer.cs">
+      <DependentUpon>about7.aspx</DependentUpon>
+    </Compile>
     <Compile Include="brand.aspx.cs">
       <DependentUpon>brand.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -475,7 +483,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="109111105.md" />
+    <Content Include="109111114.md" />
+    <Content Include="109111103.md" />
     <None Include="packages.config" />
+    <Content Include="Test.bak" />
     <None Include="Web.config.Debug.Cool">
       <DependentUpon>Web.config.Cool</DependentUpon>
     </None>

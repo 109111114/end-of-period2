@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" method="post" autocomplete="off">
         <div id="layout" class="page2">
             <header id="header">
                 <div class="container">
@@ -60,7 +60,7 @@
                                 <br />
                                 <asp:TextBox ID="message_area" runat="server" Width="426px" Height="150px" TextMode="MultiLine"></asp:TextBox><br />
                                 <br />
-                                <asp:Button ID="btn_Submit" runat="server" Text="送出" Width="80px"/>
+                                <asp:Button ID="btn_Submit" runat="server" Text="送出" Width="80px" OnClick="btn_Submit_Click" />
                             </div>
                         </div>
                     </article>
@@ -80,6 +80,8 @@
                                     <li class="sidebar-item"><a href="about5.aspx" class="sidebar-item-a ">聯絡我們</a></li>
 
                                     <li class="sidebar-item"><a href="about6.aspx" class="sidebar-item-a ">回饋單</a></li>
+
+                                    <li class="sidebar-item"><a href="about7.aspx" class="sidebar-item-a ">回饋結果</a></li>
 
                                 </ul>
                             </nav>
